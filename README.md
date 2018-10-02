@@ -5,4 +5,10 @@ In this method a content image and a style image are put through layers of a pre
 ![content style](https://user-images.githubusercontent.com/28839356/46339495-dccabb80-c62a-11e8-86d2-3a1885bd9786.png)
 <br>
 <br><br>
-After reading the paper, I tried implementing the model myself. Though the model is an accurate recreation of the original model, I was unable to get quite as good results as shown in the paper
+After reading the paper, I implementing the model myself. Here's an example outcome with Kaganawa's waves and my github profile picture.
+<br><br>
+![2j6w69](https://user-images.githubusercontent.com/28839356/46343514-e6a5ec00-c635-11e8-8ed9-69def2578f17.gif)
+<br><br>
+To use it yourself, run the jupyter notebook, changing PathyStyle to the path to the style image and PathContent to the path of your content image. Change the ratio of how heavily style and content loss are penalised when you call train.
+<br><br>
+Let me know if you use it, or make any excellent images!
